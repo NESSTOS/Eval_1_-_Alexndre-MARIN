@@ -6,30 +6,31 @@ body {
   display: flex;
   flex-direction: column;
 }
-header {
-  background-color: #660708;
-}
 main {
   display: flex;
   flex-direction: column;
 }
 article {
   background-color: #a4161a;
+  padding: 50px;
 }
 aside {
   background-color: #b1a7a6;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 30px;
 }
 footer {
   background-color: #161a1d;
   color: white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 h1 {
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
 }
 h2 {
@@ -43,4 +44,8 @@ h2 {
     flex-direction: column;
     align-items: center;
   }
+}
+.logo {
+  border-radius: 50%;
+  padding: 10px;
 }
